@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ILS\ILS_StdLog.cpp">
+      <Filter>ILS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ILS">
+      <UniqueIdentifier>{c17bbd5f-cf10-4ca8-9379-8221c4f5084a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ILS\ILS_Defines.h">
+      <Filter>ILS</Filter>
+    </ClInclude>
+    <ClInclude Include="ILS\ILS_Logger.h">
+      <Filter>ILS</Filter>
+    </ClInclude>
+    <ClInclude Include="ILS\ILS_LoggerStream.h">
+      <Filter>ILS</Filter>
+    </ClInclude>
+    <ClInclude Include="ILS\ILS_StdLog.h">
+      <Filter>ILS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
